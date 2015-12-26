@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MediatorPattern.Client">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAEAAAAAAAAAAAAAAAAAAgAAAAADAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediatorPattern.Colleague">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Colleague" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAEAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Colleague.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="meditor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MediatorPattern.ConcreteColleague1">
+    <Position X="4.75" Y="5.25" Width="1.75" />
+    <Members>
+      <Method Name="ConcreteColleague1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteColleague.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediatorPattern.ConcreteColleague2">
+    <Position X="7" Y="5.25" Width="1.75" />
+    <Members>
+      <Method Name="ConcreteColleague2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteColleague.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediatorPattern.ConcreteMediator">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAQAAAA=</HashCode>
+      <FileName>ConcreteMediator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediatorPattern.Mediator">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mediator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
